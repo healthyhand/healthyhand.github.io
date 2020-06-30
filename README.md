@@ -1,1 +1,0 @@
-# healthyhand.github.io
