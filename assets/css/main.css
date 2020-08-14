@@ -101,7 +101,7 @@ input, select, textarea {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		color: #6b7770;
-		font-size: 13pt;
+		font-size: 16pt;
 		line-height: 2em;
 	}
 
@@ -191,7 +191,8 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 3em;
+		
+        margin-bottom: 3em;
 	}
 
 /* Section/Article */
