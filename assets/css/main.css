@@ -74,6 +74,8 @@ input, select, textarea {
 
 /* Basic */
 
+
+
 	html {
 		box-sizing: border-box;
 	}
@@ -130,6 +132,14 @@ input, select, textarea {
 			text-align: center;
 			margin: 0 0 3em 0;
 			top: 0.775em;
+		}
+        
+        h2.center {
+			position: relative;
+			font-size: 1.9em;
+			text-align: center;
+			margin: 0 0 .5em 0;
+			padding: 0;
 		}
 
 			h2.major span {
@@ -2213,7 +2223,7 @@ input, select, textarea {
 	}
 
 	.box.post header {
-		margin: 0 0 2.5em 0;
+		margin: 0 0 0em 0;
 	}
 
 	.box.post h3 {
@@ -2303,7 +2313,15 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+#video {
+		text-align: center;
+		padding: 0;
+		background: #fff;
+		margin: 0 auto;
+	}
+	
+
+#header {
 		text-align: center;
 		font-size: 2em;
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -2568,7 +2586,7 @@ input, select, textarea {
 
 	#footer {
 		text-align: center;
-		padding: 8em 0 8em 0;
+		padding: 4em 0 4em 0;
 	}
 
 		#footer a {
@@ -2576,13 +2594,22 @@ input, select, textarea {
 		}
 
 		#footer h2.major {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 1em 0;
 		}
 
 			#footer h2.major span {
 				background: #f2f5f3;
 			}
 
+    #message {
+				background: #f2f5f3;
+			}
+    #name {
+				background: #f2f5f3;
+			}
+    #email {
+				background: #f2f5f3;
+			}
 /* Copyright */
 
 	#copyright {
@@ -3074,6 +3101,10 @@ input, select, textarea {
 			#main {
 				padding: 3em 0;
 			}
+        
+            #words p {
+				font-size: 4em;
+			}
 
 		/* Sidebar */
 
@@ -3086,7 +3117,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3em 0;
+				padding: 1em 0;
 			}
 
 		/* Copyright */
