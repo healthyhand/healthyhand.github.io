@@ -2498,8 +2498,11 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		background-image: url("images/main.png");
-		background-position: top left, top left, center center;
-		background-repeat: repeat, repeat, no-repeat;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: white;
+		background-position: center center;
 		background-size: auto, auto, cover;
 		z-index: 1;
 		padding: 11em 0;
@@ -2507,7 +2510,7 @@ input, select, textarea {
 
 		#banner .content {
 			position: relative;
-			background-color: rgba(255, 255, 255, .2);
+			background-color: rgba(255, 255, 255, .6);
 			/*background-image: url("images/main.png");*/
 			background-position: top left, center center;
 			background-size: auto, 100% 250%;
@@ -2523,7 +2526,7 @@ input, select, textarea {
 				margin: 0 0 0.2em 0;
 			}
             #banner .content h3 {
-				color: #b1ddab;
+				color: #5a5a5d;
                 font-size: 2em;
 				margin: 0 0 0.2em 0;
 			}
@@ -2582,11 +2585,17 @@ input, select, textarea {
 			padding-left: 0;
 		}
 
+	#sendmessage {
+		text-align: center;
+		margin: 0 9em 0 9em;
+	}
+
+
 /* Footer */
 
 	#footer {
 		text-align: center;
-		padding: 4em 0 4em 0;
+		padding: 1em 0 1em 0;
 	}
 
 		#footer a {
