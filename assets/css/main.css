@@ -2497,7 +2497,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/main.png");
+/*		background-image: url("images/main.png");*/
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
